@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+   *{
+       margin: 0;
+       padding: 0; 
+   }
+   a{
+       text-decoration: none;
+       color:white;
+       font-size: 20px;
+   }
+    .prelude{
+        width: 100%;
+        height: 80px;
+        background: #07cbc9;
+        position: fixed;
+        z-index: 1;
+    }
+    .prelude img{
+        position:absolute; 
+        left:20px; 
+        top:15px; 
+    }
+
+    .navigation{
+        float:right;
+        margin-right:-150px;
+ 
+        width: 799px;
+        height:80px;
+
+    }
+    .navigation ul{
+        list-style: none;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-right: 200px;
+        padding: 0;
+    }
+    .navigation li{
+        float: left;
+        margin-right: 5%;
+        position: relative;
+        overflow: hidden;
+        height: 80px;
+        line-height: 80px;
+    }
+    .navigation li a{
+        display: block;
+        text-align: center;
+        padding: 3px;
+        overflow: hidden;
+    }
+    .navigation li a:hover{
+        background: black;
+    }
+    .banner{
+        background: url("./imgS/banner3.jpg");
+        background-size:cover;
+        height:700px;
+        width:100%;
+        overflow: hidden;
+    }
+    .box1 {
+        margin: 0 auto;
+        height: 500px;
+        width: 500px;
+        position: relative;
+        top:180px;
+     
+        
+    }
+    .box1 input{
+        border: 1px solid white;
+        background-color: transparent;
+        font-style: 15px;
+    
+        padding-left: 40px;
+    }
+    .input:-ms-input-placeholder{
+        color:red;
+    }
+    #txt1{
+        height: 30px; 
+        width: 300px;
+        position: absolute;
+        display: inline;
+        padding-left:14px;
+        color:lightcyan;
+        margin-left: 120px;
+    }
+    #txt2{
+        height: 30px; 
+        width: 300px;
+        position: absolute;
+        display: inline;
+        padding-left:14px;
+        color:lightcyan;
+        margin-top: 60px;
+        margin-left: 120px;
+    }
+    #txt3{
+        height: 30px; 
+        width: 300px;
+        position: absolute;
+        display: inline;
+        padding-left:14px;
+        color:lightcyan;
+        margin-top:120px;
+        margin-left: 120px;
+    }
+    #txt4{
+        height: 130px; 
+        width: 300px;
+        position: absolute;
+        display: inline;
+        padding-left:14px;
+        color:lightcyan;
+        margin-top:180px;
+        margin-left: 120px;
+    }
+    #txt5{
+        height: 20px; 
+        width: 120px;
+        position: absolute;
+        display: inline;
+        padding-left:4px;
+        color:lightcyan;
+        margin-top:360px;
+        margin-left: 220px;
+    }
+   .scenario1{
+       width: 100%;
+       height:700px;
+       color: #07cbc9;
+       position: relative;
+   }
+   .txtone{
+     position: relative;
+     margin: 0 auto;
+     top: 100px;
+     width: 100px;
+     height: 100px;
+     border: 1px solid #000;
+     
+   }
+    </style>
+</head>
+<body>
+    <div class="prelude">
+        <img src="imgS\logo.png" >
+        <div class="navigation">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+       <div class="box1">
+           <input id="txt1" type="text" placeholder="your Name" >
+           <input id="txt2" type="text" placeholder="your Phone" >
+           <input id="txt3" type="text" placeholder="your Email" >
+           <input id="txt4" type="text" placeholder="Write your comment here..." >
+           <input id="txt5" type="submit" value="SEND MESSAGE">
+           <!-- <button>SEND MESSAGE</button> -->
+        </div>
+    </div>
+    <div class="scenario1">
+        <div class="txtone"><span>about</span></div>
+
+    </div>
+
+    
+</body>
+</html>
