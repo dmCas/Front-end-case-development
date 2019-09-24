@@ -5,152 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-   *{
-       margin: 0;
-       padding: 0; 
-   }
-   a{
-       text-decoration: none;
-       color:white;
-       font-size: 20px;
-   }
-    .prelude{
-        width: 100%;
-        height: 80px;
-        background: #07cbc9;
-        position: fixed;
-        z-index: 1;
-    }
-    .prelude img{
-        position:absolute; 
-        left:20px; 
-        top:15px; 
-    }
-
-    .navigation{
-        float:right;
-        margin-right:-150px;
- 
-        width: 799px;
-        height:80px;
-
-    }
-    .navigation ul{
-        list-style: none;
-        white-space: nowrap;
-        overflow: hidden;
-        margin-right: 200px;
-        padding: 0;
-    }
-    .navigation li{
-        float: left;
-        margin-right: 5%;
-        position: relative;
-        overflow: hidden;
-        height: 80px;
-        line-height: 80px;
-    }
-    .navigation li a{
-        display: block;
-        text-align: center;
-        padding: 3px;
-        overflow: hidden;
-    }
-    .navigation li a:hover{
-        background: black;
-    }
-    .banner{
-        background: url("./imgS/banner3.jpg");
-        background-size:cover;
-        height:700px;
-        width:100%;
-        overflow: hidden;
-    }
-    .box1 {
-        margin: 0 auto;
-        height: 500px;
-        width: 500px;
-        position: relative;
-        top:180px;
-     
-        
-    }
-    .box1 input{
-        border: 1px solid white;
-        background-color: transparent;
-        font-style: 15px;
-    
-        padding-left: 40px;
-    }
-    .input:-ms-input-placeholder{
-        color:red;
-    }
-    #txt1{
-        height: 30px; 
-        width: 300px;
-        position: absolute;
-        display: inline;
-        padding-left:14px;
-        color:lightcyan;
-        margin-left: 120px;
-    }
-    #txt2{
-        height: 30px; 
-        width: 300px;
-        position: absolute;
-        display: inline;
-        padding-left:14px;
-        color:lightcyan;
-        margin-top: 60px;
-        margin-left: 120px;
-    }
-    #txt3{
-        height: 30px; 
-        width: 300px;
-        position: absolute;
-        display: inline;
-        padding-left:14px;
-        color:lightcyan;
-        margin-top:120px;
-        margin-left: 120px;
-    }
-    #txt4{
-        height: 130px; 
-        width: 300px;
-        position: absolute;
-        display: inline;
-        padding-left:14px;
-        color:lightcyan;
-        margin-top:180px;
-        margin-left: 120px;
-    }
-    #txt5{
-        height: 20px; 
-        width: 120px;
-        position: absolute;
-        display: inline;
-        padding-left:4px;
-        color:lightcyan;
-        margin-top:360px;
-        margin-left: 220px;
-    }
-   .scenario1{
-       width: 100%;
-       height:700px;
-       color: #07cbc9;
-       position: relative;
-   }
-   .txtone{
-     position: relative;
-     margin: 0 auto;
-     top: 100px;
-     width: 100px;
-     height: 100px;
-     border: 1px solid #000;
-     
-   }
-    </style>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <div class="prelude">
@@ -177,10 +32,146 @@
         </div>
     </div>
     <div class="scenario1">
-        <div class="txtone"><span>about</span></div>
+        <div class="container-one">
+            <span class="txt-one">ABOUT</span>
+            <div class="underscore"></div>
+        </div>
+    </div>
+    <div class="scenario2">
+        <div class="container-two">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesettingindustry.</p></br>
+            <p>Lorem Ipsum has been the industry's standard dummy</p></br>
+            <p>text ever since the 1500s.</p>
+        </div>
+        </div>
+    <div class="scenario3">
+        <div class="container-three">
+            <img src="./imgS/bb3.jpg" alt="">
+        </div>
+        <div class="txt-two">
+            <span class="style1"> A WORD</span></br>
+            <p>ABOUT US</p></br>
+        </div>
+        <div class="container-four">
+            <pre class="txt-three"> Praesent dignissim viverra est, sed
+ bibendum ligula congue non. Sed ac nisl
+ et felis gravida commodo? Suspendisse
+ eget ullamcorper ipsum. Suspendisse
+ diam amet.</pre>
+             <div class="submit-one">
+                 <input type="submit" value="EXPLORE">
+             </div>
+        </div>
+        <div class="container-five">
+            <span>70000</span>
+            <div class="underscore-two"></div>
+            <div class="txt-four"><p>Students</p></div>
+        </div>
+        <div class="container-six">
+            <span>600</span>
+            <div class="underscore-three"></div>
+            <div class="txt-five"><p>Faculty</p></div>
+        </div>
+    </div>
+    <div class="scenario4">
+        <ul class="container-seven">
+            <li class="items">
+                <img src="./imgS/b1.jpg" alt="">  
+            </li>
+            <li class="items block-all" > 
+              <h1>Library</h1>
+              <p>Lorem Ipsum is simply dummy text of the</br>
+                 printing and typesetting industry</p>
+              <span class="prografy">Lorem Ipsum has been the industry‘s standard dummy
+                 text ever since the 1500s, when an unknown printer took 
+                 a galley of type and scrambled it to make a type
+                 specimen book.
+              </span>
+              <button>EXPLORE</button>
+            </li>
+            <li class="items">
+                <img src="./imgS/b2.jpg" alt="">  
+            </li>
+            <li class="items block-all">
+                    <h1>Computer Lab</h1>
+                    <p>Lorem Ipsum is simply dummy text of the</br>
+                       printing and typesetting industry</p>
+                    <span class="prografy">Lorem Ipsum has been the industry‘s standard dummy
+                       text ever since the 1500s, when an unknown printer took 
+                        galley of type and scrambled it to make  type
+                       specimen book.
+                    </span>
+                    <button>EXPLORE</button>
+            </li>            
+        </ul>
+        <ul class="container-seven">
+                <li class="items block-all">
+                    <h1>Conference hall</h1>
+                    <p>Lorem Ipsum is simply dummy text of the</br>
+                        printing and typesetting industry</p>
+                    <span class="prografy">Lorem Ipsum has been the industry‘s standard dummy
+                        text ever since the 1500s, when an unknown printer took 
+                        galley of type and scrambled it to make  type
+                        specimen book.
+                    </span>
+                    <button>EXPLORE</button>
+                </li>
+                <li class="items">
+                    <img src="./imgS/b3.jpg" alt="">
+                </li>
+                <li class="items block-all">
+                        <h1>Play Ground</h1>
+                        <p>Lorem Ipsum is simply dummy text of the</br>
+                            printing and typesetting industry</p>
+                        <span class="prografy">Lorem Ipsum has been the industry‘s standard dummy
+                            text ever since the 1500s, when an unknown printer took 
+                            galley of type and scrambled it to make  type
+                            specimen book.
+                        </span>
+                        <button>EXPLORE</button>   
+                </li>
+                <li class="items">
+                    <img src="./imgS/b4.jpg" alt="">
+                </li>            
+            </ul>
+    </div>
+    <div class="scenario5">
+        <span class="txt-eight">GALLERY</span>
+        <div class="underscore"></div>
+    </div>
+    <div class="scenario6">
+        <div class="container-eight">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesettingindustry.</p></br>
+        <p>Lorem Ipsum has been the industry's standard dummy</p></br>
+        <p>text ever since the 1500s.</p>
+        </div>
+    </div>
+    <div class="scenario7">
+    <ul class="container-nine">
+        <li class="displayPic">
+            <img src="./imgS/03-01.jpg" alt="">
+        </li>
+        <li class="displayPic">
+            <img src="./imgS/03-02.jpg" alt="">      
+        </li>
+        <li class="displayPic">
+            <img src="./imgS/03-03.jpg" alt="">   
+        </li>
+    </ul>
+    <ul class="container-nine">
+        <li class="displayPic">
+            <img src="./imgS/03-04.jpg" alt="">
+        </li>
+        <li class="displayPic"> 
+            <img src="./imgS/03-05.jpg" alt="">  
+        </li>
+        <li class="displayPic">
+            <img src="./imgS/03-06.jpg" alt="">     
+        </li>
+    </ul>
+
+
 
     </div>
-
-    
 </body>
 </html>
