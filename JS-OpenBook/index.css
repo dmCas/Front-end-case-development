@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    overflow: hidden;
+    font: 100%/1.25 Helvetica, Arial;
+    color: white;
+    perspective: 1000px; /*属性定义 3D 元素距视图的距离，以像素计。该属性允许您改变 3D 元素查看 3D 元素的视图。*/
+    background-color: #444;
+    background-image: -webkit-gradient(linear, left top, left bottom ,from(#444),top(#999));/*浏览器兼容*/
+    background-image: -webkit-linear-gradient(top,#444,#999);/*从上到下，颜色#444变为#999*/
+    background-image: linear-gradient(top bottom,#444,#999);/*从上到下，颜色#444变为#999*/
+    }
+.book{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;/*当前容器鼠标不可选中*/
+    transform: rotateX(60deg);
+}
+.page{
+    width: 300px;
+    height: 300px;
+    padding: 1em; /*相对于父容器进行大小的判断*/
+    position: absolute;
+    left: 0;
+    top: -150px;
+    text-indent: 2em; /*首行缩进*/
+}
+.front{
+    background-color: #d93e2b;
+}
+.back{
+    background-color: #fff;
+}
+.front-cover{
+    cursor: move;
+    transform-origin: 0 50%;/*旋转基点*/
+    transform: rotateY(0deg);
+}
+.front-cover .back{
+    background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553581220215&di=91943b3c087faf6b86e0670ce7c0eb3d&imgtype=0&src=http%3A%2F%2Fimg.25pp.com%2Fuploadfile%2Fsoft%2Fimages%2F2015%2F0301%2F20150301021016689.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transform: translateZ(3px);
+}
+.back-cover .back{
+    transform: translateZ(-3px);
+}
+.p3d{
+    transform-style: preserve-3d;/*设置动画样式为3D动画*/
+}
+.flip{
+    transform: rotateY(180deg);
+}
+.dino,.shadow/*同时选中两个容器*/{
+    width: 196px;
+    height: 132px;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    transform-origin: 0 100%;
+}
+.dino{
+    background-image: url(http://cdn.duitang.com/uploads/item/201406/17/20140617131104_hcJft.jpeg) no-repeat;
+    background-size: cover;
+}
+.shadow{
+    background-color: rgba(0,0,0,0.5);
+}
