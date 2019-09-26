@@ -24,12 +24,14 @@
     </div>
     <div class="banner">
         <div class="box1">
+            <form action="">
             <input id="txt1" type="text" placeholder="your Name">
             <input id="txt2" type="text" placeholder="your Phone">
             <input id="txt3" type="text" placeholder="your Email">
             <input id="txt4" type="text" placeholder="Write your comment here...">
             <!-- <button id="txt5" type="submit" value="SEND MESSAGE"> -->
             <button id="txt5" type="submit">SEND MESSAGE</button>
+            </form>
         </div>
     </div>
     <div class="scenario1">
@@ -47,7 +49,7 @@
     </div>
     <div class="scenario3">
         <div class="container-three">
-            <img src="./imgS/bb3.jpg" alt="">
+            <img src="./imgS/bb3.jpg" alt="" class="PIC">
         </div>
         <div class="txt-two">
             <span class="style1"> A WORD</span></br>
@@ -179,6 +181,14 @@
     <div class="scenario8">
         <p>@ 2016 imooc.com 京ICP备13046642号 </p>
     </div>
+    <script>
+    var clientWidth = document.body.clientWidth;
+    var Pic = document.getElementsByClassName('PIC')
+    // Pic.classList[0].style.width=clientWidth/4;s
+    Pic.style.width = clientWidth/4;
+    console.log(Pic[0])
+
+    </script>
 </body>
 
 </html>
