@@ -275,39 +275,26 @@ body {
   color: #bababa;
   margin-top: 0.1rem;
 }
-.page .movie-photo,
-.page__lists {
+.page .movie-photo .movie-photo_lists {
   width: 100%;
   padding: 0.3rem 0.3rem 0.2rem 0.3rem;
   white-space: nowrap;
   overflow-x: scroll;
   box-sizing: border-box;
 }
-.page .movie-photo .stage-img-container,
-.page__lists .stage-img-container {
+.page .movie-photo .movie-photo_lists .stage-img-container {
   margin-right: 0.13333rem;
   display: inline-block;
   width: 2.4rem;
   height: 1.867rem;
 }
-.page .movie-photo .stage-img-container .movie-celebrities__pic,
-.page__lists .stage-img-container .movie-celebrities__pic {
+.page .movie-photo .movie-photo_lists .stage-img-container .movie-celebrities__pic {
   width: 100%;
   height: 100%;
 }
-.page .movie-photo .stage-img-container .movie-celebrities__pic img,
-.page__lists .stage-img-container .movie-celebrities__pic img {
+.page .movie-photo .movie-photo_lists .stage-img-container .movie-celebrities__pic img {
   width: 100%;
   height: 100%;
-}
-.page .movie-photo .stage-img-container .movie-celebrities__pic img:first-child,
-.page__lists .stage-img-container .movie-celebrities__pic img:first-child {
-  width: 3.334rem;
-  height: 1.867rem;
-}
-.page .movie-photo .stage-img-container .movie-celebrities__pic img:last-child,
-.page__lists .stage-img-container .movie-celebrities__pic img:last-child {
-  margin-right: 0;
 }
 #toast {
   display: none;
