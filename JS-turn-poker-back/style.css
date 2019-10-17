@@ -13,23 +13,14 @@
   height: 140px;
   margin: 2px;
 }
-@-moz-keyframes rotateAni {
-  to {
-    transform: rotateY(360deg);
-  }
+#wrap img.rotate-animation{
+    animation: rotateAni 1s ease-in-out;
 }
-@-webkit-keyframes rotateAni {
-  to {
-    transform: rotateY(360deg);
-  }
-}
-@-o-keyframes rotateAni {
-  to {
-    transform: rotateY(360deg);
-  }
-}
-@keyframes rotateAni {
-  to {
-    transform: rotateY(360deg);
-  }
-}
+
+@keyframes rotateAni{
+    to{ 
+        transform: rotateY(360deg);
+    }
+   
+} 
+   
