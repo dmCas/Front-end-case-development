@@ -34,4 +34,5 @@ Person() -> 作为普通函数被运行 指向window|严格模式 undefined
     return new F()
     <!-- return {}; -->
   }
+  a
 
